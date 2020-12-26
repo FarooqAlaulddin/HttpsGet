@@ -19,3 +19,5 @@ function handler(number){
 
 }
 ```
+
+### This my solution to a similar problem on HackerRank.
