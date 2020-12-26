@@ -8,7 +8,7 @@ function handler(number){
   console.log("Tries: ", number);
   request(number).then(function(value){
       value = JSON.parse(value);
-      if(value.data.name == "tigerlily"){
+      if(value.data.name == "tigerlily"){ // the value wanted.. idealy it will loop 5 times. might change according to the API
         //console.log("Google",value.data.name); // Success!
         document.getElementById('data').innerText = value.data.name;
       }
