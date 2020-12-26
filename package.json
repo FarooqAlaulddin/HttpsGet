@@ -1,0 +1,17 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "arithmetic": "^1.0.1",
+    "https": "^1.0.0",
+    "repeat-string": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
